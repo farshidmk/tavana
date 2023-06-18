@@ -1,0 +1,20 @@
+.icons {
+  display: flex;
+  align-items: center;
+  min-width: 100px;
+  justify-content: space-evenly;
+}
+
+.icons svg {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* .logo {
+  height: 60px;
+  width: auto;
+} */
+
+.fm-navlink {
+  min-width: 80px;
+}

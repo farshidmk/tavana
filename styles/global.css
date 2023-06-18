@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "Vazirmatn";
+  src: url("/assets/fonts/webfonts/Vazirmatn[wght].woff2")
+      format("woff2 supports variations"),
+    url("/assets/fonts/Vazirmatn[wght].woff2") format("woff2-variations");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 
+  Note: The styles for this gradient grid background is heavily inspired by the creator of this amazing site (https://dub.sh) – all credits go to them! 
+*/
+
+html {
+  font-family: "Vazirmatn";
+}
+
+@media screen and (max-width: 640px) {
+  .main {
+    padding: 0;
+  }
+}
+
+/* Tailwind Styles */
+
+.navbar_icon {
+  @apply p-2 w-28 ms-4 rounded hover:bg-farshid hover:text-white transition-all duration-1000 flex justify-evenly items-center border-2 border-tavana-100 text-tavana-100;
+}
